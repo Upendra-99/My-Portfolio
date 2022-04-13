@@ -6,7 +6,7 @@ import About from "./About/About";
 import Prof from "./Prof/Prof";
 import Project from "./Projects/Project";
 import Masai from "./Masai/Masai";
-// import Calender from "./GitCalender/Calender";
+import Calender from "./GitCalender/Calender";
 import Getin from "./Getin/Getin";
 import Footer from "./Footer/Footer";
 // import Typical from "react-typical";
@@ -20,10 +20,10 @@ function Home() {
         <Nav />
         <Top />
         <About />
-        <Masai />
+        {/* <Masai /> */}
         <Prof />
         <Project />
-        {/* <Calender /> */}
+        <Calender />
         <Getin />
         <Footer />
       </div>

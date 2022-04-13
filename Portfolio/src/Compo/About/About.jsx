@@ -11,11 +11,11 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript, IoMailSharp } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
-import { SiTypescript, SiRedux } from "react-icons/si";
+import { SiTypescript, SiRedux, SiGithub } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
-import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid } from "@material-ui/core";
 import home from "../../images/mypic.png";
+import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme) => ({
@@ -111,9 +111,9 @@ function About() {
                     <DiFirebase style={{ color: "white", fontSize: "80px" }} />
                   </div>
                 </Tooltip>
-                <Tooltip title={<h1 style={{ color: "white" }}>TypeScript</h1>}>
+                <Tooltip title={<h1 style={{ color: "white" }}>GitHub</h1>}>
                   <div className="tech">
-                    <SiTypescript
+                    <SiGithub
                       style={{
                         color: "white",
                         fontSize: "60px",
@@ -133,30 +133,33 @@ function About() {
                   <img className="profilePic" src={home} alt="" width="190px" />
                 </div>
 
-                <h1>Upendra Kumar Chauhan</h1>
-                <h4 className="number">Full Stack Developer</h4>
+                <h1 className="name">Upendra Kumar Chauhan</h1>
+                <span className="role">Full Stack Developer</span>
+                <p className="about-text">
+                  <span>
+                    An ambitious and detail-oriented aspiring Full Stack
+                    Developer with a BTech in Computer Science, adept at
+                    JavaScript technologies across MERN Stack and solving Data
+                    Structures and Algorithm problems, is a curious learner and
+                    excellent team player.
+                  </span>
+
+                  <span>
+                    <br /> Strongly interested in obtaining a Software Developer
+                    position to leverage the goals and ambition of the
+                    organization.
+                  </span>
+                </p> <hr />
                 <p className="number">
-                  <TiLocation /> Lucknow, Uttar Pradesh, India
-                </p>
-                <p>
-                  <span>
-                    I am a passionate full stack developer skilled in MERN Stack
-                    guided by Masai School.
-                  </span>
-                  <br />
-                  <span>
-                    <br /> I am looking for opportunity to apply my knowledge
-                    and skills to be a valuable assets for organization and a
-                    better version of myself.
-                  </span>
+                  <IoMailSharp /> chauhanup47@gmail.com
                 </p>
                 <p className="number">
                   <FaPhoneAlt /> +91-7880334068
                 </p>
-                <p className="number">
-                  <IoMailSharp /> chauhanup47@gmail.com
+                <p className="location">
+                  <TiLocation /> Lucknow, Uttar Pradesh, India
                 </p>
-                <div style={{ display: "flex", flexDirection: "row" }}>
+                {/* <div style={{ display: "flex", flexDirection: "row" }}>
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1mG9EsaShS2tTchPKLBmBm9mlrA9KEDRX/view?usp=sharing"
@@ -171,7 +174,7 @@ function About() {
                       View Full Resume
                     </h3>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </Grid>

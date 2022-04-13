@@ -24,7 +24,7 @@ function Footer() {
             marginTop: "5px",
           }}
         />
-        by <span className="foo_name">Nitin Maharshi.</span>
+        by <span className="foo_name">Upendra Kumar Chauhan</span>
       </p>
     </div>
   );

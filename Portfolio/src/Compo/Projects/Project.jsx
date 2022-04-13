@@ -67,7 +67,7 @@ function Project() {
                 <div className="gitlive">
                   <a
                     href="https://github.com/ansari-saif/Travel"
-                    target="_blank"
+                    target="_blank "
                   >
                     <Button
                       className={classes.btn}
@@ -78,10 +78,7 @@ function Project() {
                     </Button>
                   </a>
                   <div style={{ width: "20px" }} />
-                  <a
-                    href="https://prashant-sharma-tws.github.io/Travel/"
-                    target="_blank"
-                  >
+                  <a href="https://prashant-sharma-tws.github.io/Travel/" target="_blank "  >
                     <Button
                       className={classes.btn}
                       variant="contained"
@@ -107,11 +104,12 @@ function Project() {
             <Paper>
               <div className="container1">
                 <div className="content1">
-                  <h4>Travelista</h4>
-                  <p> A website that offers facilities to travellers. </p>
-                  <p>Project duration: 5 days</p>
-                  <p>TechStack: HTML, CSS and javaScript</p>
-                  <p>Team: 4 members</p>
+                  <h3>Travelista</h3>
+                  <p> A website that offers travellers to choose popular destination, affordable travelling package and helps with other services like cruise booking, food features and rent cars.
+                  </p>
+                  <p> <b>Project duration</b> : 5 days</p>
+                  <p> <b>TechStack </b>: HTML, CSS and javaScript</p>
+                  <p> <b>Team </b>: 4 members</p>
                 </div>
                 <div style={{ textAlign: 'left', paddingLeft: '30px' }}>
                   <IoLogoCss3 style={{ color: "#475569", fontSize: "40px" }} />

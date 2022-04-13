@@ -1,8 +1,21 @@
 import React from "react";
 import "./Getin.css";
-import { FaGithub, FaLinkedin, FaPhoneAlt, FaDownload } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhoneAlt, FaCode } from "react-icons/fa";
 import { IoMailSharp } from "react-icons/io5";
+import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(0),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+  },
+}));
+
 
 function Getin() {
   return (
@@ -79,24 +92,37 @@ function Getin() {
               </div>
 
               <div className="getinright1">
-                <a target="_blank" href="www.linkedin.com/in/chauhanupendra">
-                  <FaLinkedin className="con" />
-                </a>
-                <a target="_blank" href="https://github.com/Upendra-99">
-                  <FaGithub className="con" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1mG9EsaShS2tTchPKLBmBm9mlrA9KEDRX/view?usp=sharing"
-                >
-                  <FaDownload className="con" />
-                </a>
-                <a target="_blank" href="tel: +91-7880334068">
-                  <FaPhoneAlt className="con" />
-                </a>
-                <a target="_blank" href="mailto: chauhanup47@gmail.com">
-                  <IoMailSharp className="con" />
-                </a>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>Linkedin</h1>}>
+                  <a target="_blank " href="https://www.linkedin.com/in/chauhanupendra/">
+                    <FaLinkedin className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>Github</h1>}>
+                  <a target="_blank " href="https://github.com/Upendra-99" alt="git">
+                    <FaGithub className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>LeetCode</h1>}>
+                  <a target="_blank " href="https://leetcode.com/Upendra_Chauhan/" alt="git">
+                    <FaCode className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>Mobile</h1>}>
+                  <a target="_blank " href="tel: +91-7880334068">
+                    <FaPhoneAlt className="con" />
+                  </a>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>E-Mail</h1>}>
+                  <a target="_blank " href="mailto: chauhanup47@gmail.com">
+                    <IoMailSharp className="con" />
+                  </a>
+                </Tooltip>
+
               </div>
             </div>
           </div>
