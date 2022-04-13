@@ -32,11 +32,11 @@ function Nav() {
                 <a className="nav-link">Projects</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="cal_main" spy={true} smooth={true}>
                 <a className="nav-link">Git Stats</a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="contact" spy={true} smooth={true}>
                 <a className="nav-link">Contact</a>

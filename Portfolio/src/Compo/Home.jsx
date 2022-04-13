@@ -23,7 +23,7 @@ function Home() {
         {/* <Masai /> */}
         <Prof />
         <Project />
-        <Calender />
+        {/* <Calender /> */}
         <Getin />
         <Footer />
       </div>
