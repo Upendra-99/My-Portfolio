@@ -27,6 +27,12 @@
   animation-name: up-down;
 }
 
+.tech-stack-logo {
+  margin: 0px 5px;
+  color: #475569;
+  font-size: 40px;
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(10px);

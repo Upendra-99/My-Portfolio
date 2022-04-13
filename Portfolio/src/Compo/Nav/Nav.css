@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
 
 .nav {
+  box-sizing: border-box;
   border: black 0px solid;
   height: 70px;
-  margin-top: -60px;
-  background-color: rgb(143, 143, 143);
-  /* background-color: rgb(0, 195, 255); */
+  /* margin-top: -60px; */
+  /* background-color: rgb(143, 143, 143); */
+  background-color: rgb(231, 235, 235);
   /* box-shadow: 0px 0px 5px 1px rgb(187, 243, 247); */
+  color: black;
   position: sticky;
   top: 0px;
   z-index: 1;
@@ -90,15 +92,16 @@ a {
 .nav-link {
   box-sizing: border-box;
   font-weight: 400;
-  color: #fbfcfc;
+  color: #141515;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .nav-link:hover {
+  box-sizing: border-box;
   font-size: 24px;
-  color: rgb(253, 252, 252);
+  color: rgb(17, 16, 16);
   cursor: pointer;
 }
 

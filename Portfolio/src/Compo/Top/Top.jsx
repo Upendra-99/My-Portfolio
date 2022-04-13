@@ -1,6 +1,6 @@
 import React from "react";
 import "../Home.css";
-import ban from "../../images/laptopAlgoGiffy.gif";
+import ban from "../../images/CodingLappy.webp";
 import Typical from "react-typical";
 import { Link } from "react-scroll";
 
@@ -12,7 +12,7 @@ function Home() {
         <div className="home_profile">
           <h1 className="home_tag">Full Stack Developer</h1>
           <h1 className="home_name">
-            <strong>Upendra Kumar Chauahan</strong>
+            <span>Upendra Kumar Chauhan</span>
           </h1>
           <Typical
             steps={[
@@ -30,15 +30,16 @@ function Home() {
           <div className="buttons">
             <Link to="projects" spy={true} smooth={true}>
               <div className="home_getstarted">
-                <p className="mywork">View my work</p>
+                <p className="home-profile-btn">View my work</p>
               </div>
             </Link>
-            <a className="margin-left" target="_blank" href="https://drive.google.com/file/d/1mG9EsaShS2tTchPKLBmBm9mlrA9KEDRX/view?usp=sharing" >
 
+            <a className="margin-left" target="_blank" href="https://drive.google.com/file/d/1mG9EsaShS2tTchPKLBmBm9mlrA9KEDRX/view?usp=sharing" >
               <div className="home_getstarted">
-                <p className="mywork">Resume</p>
+                <p className="home-profile-btn">Resume</p>
               </div>
             </a>
+
           </div>
         </div>
 
