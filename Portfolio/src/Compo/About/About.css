@@ -106,24 +106,33 @@
 
 .about-text {
   line-height: 1.4;
-  font-size: 19px;
+  font-size: 16px;
   color: rgb(217, 228, 238);
   font-family: sans-serif;
 }
 .role {
-  color: rgb(217, 228, 238);
+  color: rgb(0, 4, 8);
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: bold;
 }
-.location {
+/* .location {
   color: rgb(194, 189, 189);
   font-size: 18px;
-}
+} */
 .number {
-  /* color: rgb(0, 11, 16); */
   color: rgb(194, 189, 189);
-  font-size: 18px;
   word-spacing: normal;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.number span {
+  color: #f6fafc;
+  font-size: 15px;
+}
+.hr {
+  background-color: black;
+  border: 0.5px solid rgb(97, 122, 185);
 }
 
 .info {

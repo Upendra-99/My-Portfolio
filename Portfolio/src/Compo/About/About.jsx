@@ -14,7 +14,7 @@ import { DiMongodb, DiFirebase } from "react-icons/di";
 import { SiTypescript, SiRedux, SiGithub } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { Container, Grid } from "@material-ui/core";
-import home from "../../images/mypic.png";
+import home from "../../images/mypic/mypic.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 
@@ -123,6 +123,7 @@ function About() {
                   </div>
                 </Tooltip>
               </div>
+
             </div>
           </Grid>
 
@@ -149,15 +150,15 @@ function About() {
                     position to leverage the goals and ambition of the
                     organization.
                   </span>
-                </p> <hr />
+                </p> <hr className="hr" />
                 <p className="number">
-                  <IoMailSharp /> chauhanup47@gmail.com
+                  <IoMailSharp /> <span>chauhanup47@gmail.com</span>
                 </p>
                 <p className="number">
-                  <FaPhoneAlt /> +91-7880334068
+                  <FaPhoneAlt /> <span>+91-7880334068</span>
                 </p>
-                <p className="location">
-                  <TiLocation /> Lucknow, Uttar Pradesh, India
+                <p className="number">
+                  <TiLocation /><span> Lucknow, Uttar Pradesh, India</span>
                 </p>
                 {/* <div style={{ display: "flex", flexDirection: "row" }}>
                   <a
