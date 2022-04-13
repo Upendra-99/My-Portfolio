@@ -187,7 +187,7 @@ function Project() {
                   <p> It's a clone of an American social question-and-answer 'Quora' website that allows to ask questions, get useful answers, and share what you know with the world.
                   </p>
                   <p> <b>Project duration</b> : 6 days</p>
-                  <p> <b>TechStack </b>:HTML, CSS, javaScript, ReactJs, Redux, Material UI, GitHub, Netlify, Firebase, Json-Server and </p>
+                  <p> <b>TechStack </b>:HTML, CSS, javaScript, ReactJs, Redux, Material UI, GitHub, Netlify, Firebase and Json-Server </p>
                   <p> <b>Team </b>: 3 members</p>
                 </div>
                 <div style={{ textAlign: 'left', paddingLeft: '30px' }}>
