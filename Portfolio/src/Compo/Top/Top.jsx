@@ -1,6 +1,7 @@
 import React from "react";
 import "../Home.css";
 import ban from "../../images/CodingLappy.webp";
+import rocket from "../../images/home1.svg";
 import Typical from "react-typical";
 import { Link } from "react-scroll";
 
@@ -19,7 +20,7 @@ function Home() {
               "Frontend",
               800,
               "Backend",
-              800,
+              1000,
               "Data structures and algorithms",
               800,
             ]}
@@ -34,7 +35,7 @@ function Home() {
               </div>
             </Link>
 
-            <a className="margin-left" target="_blank" href="https://drive.google.com/file/d/1mG9EsaShS2tTchPKLBmBm9mlrA9KEDRX/view?usp=sharing" >
+            <a className="margin-left" target=" _blank" href="https://drive.google.com/file/d/1sAK5bAS9mtTlCDqzQeSjT1V5y1rmorD0/view?usp=sharing" >
               <div className="home_getstarted">
                 <p className="home-profile-btn">Resume</p>
               </div>
@@ -44,7 +45,8 @@ function Home() {
         </div>
 
         <div className="image-cont">
-          <img src={ban} className="home_image" alt="gif" />
+          <img src={rocket} className="home_image" alt="gif" />
+          {/* <img src={ban} className="home_image" alt="gif" /> */}
         </div>
 
       </div>

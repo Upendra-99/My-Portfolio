@@ -4,6 +4,8 @@ div {
   padding: 0px;
 }
 .home_top {
+  /* background-image: url("../images/wood.avif");
+  background-repeat: no-repeat; */
   box-sizing: border-box;
   margin: auto;
   width: 100%;
@@ -12,7 +14,7 @@ div {
 
 .home_banner {
   box-sizing: border-box;
-  height: 70vh;
+  height: 90vh;
   margin-top: 8vh;
   display: flex;
   justify-content: space-around;
@@ -100,6 +102,7 @@ div {
 
 .image-cont {
   width: 50%;
+  height: 100%;
   display: flex;
   justify-content: left;
   padding-left: 10%;
@@ -107,7 +110,8 @@ div {
 }
 
 .home_image {
-  width: 60%;
+  width: 75%;
+  height: 85%;
   border-radius: 50%;
   margin-right: 0%;
   animation-duration: 2s;

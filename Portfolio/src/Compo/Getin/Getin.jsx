@@ -105,11 +105,11 @@ function Getin() {
                   </a>
                 </Tooltip>
 
-                <Tooltip title={<h1 style={{ color: "white" }}>LeetCode</h1>}>
+                {/* <Tooltip title={<h1 style={{ color: "white" }}>LeetCode</h1>}>
                   <a target="_blank " href="https://leetcode.com/Upendra_Chauhan/" alt="git">
                     <FaCode className="con" />
                   </a>
-                </Tooltip>
+                </Tooltip> */}
 
                 <Tooltip title={<h1 style={{ color: "white" }}>Mobile</h1>}>
                   <a target="_blank " href="tel: +91-7880334068">
