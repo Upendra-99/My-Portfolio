@@ -5,13 +5,15 @@ import {
   FaReact,
   FaHtml5,
   FaNode,
-  // FaGithub,
+  FaGithub,
   // FaLinkedin,
   FaPhoneAlt,
+  FaPassport,
+
 } from "react-icons/fa";
 import { IoLogoJavascript, IoMailSharp } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
-import { SiTypescript, SiRedux, SiGithub } from "react-icons/si";
+import { SiTypescript, SiRedux, SiGithub, SiReactrouter, SiJson } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { Container, Grid } from "@material-ui/core";
 import home from "../../images/mypic/mypic.png";
@@ -60,6 +62,7 @@ function About() {
                     />
                   </div>
                 </Tooltip>
+
                 <Tooltip title={<h1 style={{ color: "white" }}>CSS</h1>}>
                   <div className="tech">
                     <FaCss3Alt
@@ -69,23 +72,6 @@ function About() {
                         margin: "5px",
                       }}
                     />
-                  </div>
-                </Tooltip>
-                <Tooltip title={<h1 style={{ color: "white" }}>NodeJs</h1>}>
-                  <div className="tech">
-                    <FaNode style={{ color: "white", fontSize: "80px" }} />
-                  </div>
-                </Tooltip>
-              </div>
-              <div className="left_bar">
-                <Tooltip title={<h1 style={{ color: "white" }}>ReactJs</h1>}>
-                  <div className="tech">
-                    <FaReact style={{ color: "white", fontSize: "80px" }} />
-                  </div>
-                </Tooltip>
-                <Tooltip title={<h1 style={{ color: "white" }}>Redux</h1>}>
-                  <div className="tech">
-                    <SiRedux style={{ color: "white", fontSize: "80px" }} />
                   </div>
                 </Tooltip>
                 <Tooltip title={<h1 style={{ color: "white" }}>JavaScript</h1>}>
@@ -99,18 +85,6 @@ function About() {
                     />
                   </div>
                 </Tooltip>
-              </div>
-              <div className="left_bar">
-                <Tooltip title={<h1 style={{ color: "white" }}>MongoDB</h1>}>
-                  <div className="tech">
-                    <DiMongodb style={{ color: "white", fontSize: "80px" }} />
-                  </div>
-                </Tooltip>
-                <Tooltip title={<h1 style={{ color: "white" }}>Firebase</h1>}>
-                  <div className="tech">
-                    <DiFirebase style={{ color: "white", fontSize: "80px" }} />
-                  </div>
-                </Tooltip>
                 <Tooltip title={<h1 style={{ color: "white" }}>GitHub</h1>}>
                   <div className="tech">
                     <SiGithub
@@ -122,6 +96,73 @@ function About() {
                     />
                   </div>
                 </Tooltip>
+              </div>
+              <div className="left_bar">
+                <Tooltip title={<h1 style={{ color: "white" }}>MongoDB</h1>}>
+                  <div className="tech">
+                    <DiMongodb style={{ color: "white", fontSize: "80px" }} />
+                  </div>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>ReactJs</h1>}>
+                  <div className="tech">
+                    <FaReact style={{ color: "white", fontSize: "80px" }} />
+                  </div>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>NodeJs</h1>}>
+                  <div className="tech">
+                    <FaNode style={{ color: "white", fontSize: "80px" }} />
+                  </div>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>Redux</h1>}>
+                  <div className="tech">
+                    <SiRedux style={{ color: "white", fontSize: "80px" }} />
+                  </div>
+                </Tooltip>
+
+
+              </div>
+              <div className="left_bar">
+                <Tooltip title={<h1 style={{ color: "white" }}>Passport</h1>}>
+                  <div className="tech">
+                    <FaPassport
+                      style={{
+                        color: "white",
+                        fontSize: "75px",
+                        margin: "5px",
+                      }}
+                    />
+                  </div>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>React Router</h1>}>
+                  <div className="tech">
+                    <SiReactrouter
+                      style={{
+                        color: "white",
+                        fontSize: "75px",
+                        margin: "5px",
+                      }}
+                    />
+                  </div>
+                </Tooltip>
+
+                <Tooltip title={<h1 style={{ color: "white" }}>Json-server</h1>}>
+                  <div className="tech">
+                    <SiJson
+                      style={{
+                        color: "white",
+                        fontSize: "75px",
+                        margin: "5px",
+                      }}
+                    />
+                  </div>
+                </Tooltip>
+                <Tooltip title={<h1 style={{ color: "white" }}>Firebase</h1>}>
+                  <div className="tech">
+                    <DiFirebase style={{ color: "white", fontSize: "80px" }} />
+                  </div>
+                </Tooltip>
+
+
               </div>
 
             </div>
