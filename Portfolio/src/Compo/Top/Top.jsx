@@ -35,7 +35,7 @@ function Home() {
               </div>
             </Link>
 
-            <a className="margin-left" target=" _blank" href="https://drive.google.com/file/d/1sAK5bAS9mtTlCDqzQeSjT1V5y1rmorD0/view?usp=sharing" >
+            <a className="margin-left" target=" _blank" href="https://drive.google.com/file/d/1CnDQlW8RkwBicHFfTNq_SFwjLXfSIdkc/view?usp=sharing" >
               <div className="home_getstarted">
                 <p className="home-profile-btn">Resume</p>
               </div>
