@@ -11,7 +11,7 @@ function Home() {
       <div className="home_banner">
 
         <div className="home_profile">
-          <h1 className="home_tag">Full Stack Developer</h1>
+          <h1 className="home_tag">Aspiring Full Stack Developer</h1>
           <h1 className="home_name">
             <span>Upendra Kumar Chauhan</span>
           </h1>
